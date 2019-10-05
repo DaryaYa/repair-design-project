@@ -1,0 +1,115 @@
+body {
+  background-color: #252525;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  position: relative;
+  max-width: 1440px;
+  height: 790px;
+  font-family: FuturaBookC;
+  margin: 0 auto;
+  background: black url("assets/group7.png") no-repeat;
+  background-position: right bottom;
+}
+
+.header nav {
+  height: 83px;
+  background-color: black;
+}
+
+.header nav .nav-ul {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+.header .instagram {
+  background-color: black;
+  color: #e3b873;
+  transform: rotate(90deg);
+  text-align: center;
+  max-width: 50%;
+  position: relative;
+  left: -22%;
+  top: 40%;
+  font-size: 12px;
+}
+
+.header .text-buttons-block {
+  width: 45%;
+  height: 40%;
+  margin: 15%;
+}
+
+.header .text-buttons-block p:first-child {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.header .text-buttons-block p:first-child span {
+  color: #e3b873;
+}
+
+.header .text-buttons-block p:nth-child(2) {
+  font-family: FuturaBookC;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+}
+
+.calc {
+  margin-top: 20px;
+  background-color: #e3b873;
+  height: 50px;
+  border: none;
+  color: white;
+  width: 33%;
+  margin-right: 2%;
+}
+
+.submit {
+  margin-top: 20px;
+  border: 1px solid white;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  width: 33%;
+}
+
+.items {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: white;
+  align-self: center;
+}
+
+.items:first-child, .items:nth-child(2) {
+  color: #e3b873;
+}
+
+.items:nth-last-of-type(2) {
+  color: #e3b873;
+  text-decoration: underline;
+}
+
+.items:last-child {
+  background-color: #e3b873;
+  color: white;
+  padding: 10px 15px;
+}
