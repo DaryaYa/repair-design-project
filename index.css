@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #252525;
 }
@@ -191,7 +192,7 @@ h1 {
 }
 
 .camera {
-  margin: 5% auto;
+  margin: 5% auto 3%;
 }
 .camera p {
   font-family: Yeseva One;
@@ -204,16 +205,107 @@ h1 {
   color: #FFFFFF;
 }
 .camera img {
-  margin: 10px auto;
+  margin: 10px auto 0;
   display: block;
 }
 
 .video {
-  margin: 30px auto;
+  margin: 0 auto;
 }
 .video img {
-  margin: 10px auto;
+  margin: 0 auto;
   display: block;
+}
+
+.lines {
+  height: 2600px;
+  background: white url("assets/lines.png");
+  background-position: center bottom;
+}
+.lines p:first-child {
+  color: #E3B873;
+  font-weight: bold;
+  width: 50%;
+  padding-top: 235px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.line-text {
+  font-family: FuturaBookC;
+  font-size: 20px;
+  line-height: 34px;
+  width: 50%;
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  color: #363636;
+}
+
+.form1 {
+  display: flex;
+  width: 50%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+.form1 .name-form p:first-child, .form1 .phone-form p:first-child {
+  color: rgba(54, 54, 54, 0.5);
+  text-align: left;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  font-size: 10px;
+}
+.form1 .submit-form p {
+  padding: 0;
+  margin-top: 19px;
+}
+.form1 .name-form p:last-child, .form1 .phone-form p:last-child {
+  color: rgba(54, 54, 54, 0.5);
+}
+.form1 .submit-form {
+  background-color: #E3B873;
+  width: 30%;
+  height: 50px;
+  margin-top: 35px;
+}
+.form1 .submit-form p {
+  color: white;
+}
+
+.form1-check {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+}
+.form1-check input {
+  visibility: hidden;
+}
+.form1-check input::before {
+  content: " ✓ ";
+  color: white;
+  border: 2px solid #E3B873;
+  visibility: visible;
+  background-color: #E3B873;
+}
+
+.repair {
+  width: 30%;
+  margin: 10% auto 0;
+  text-align: center;
+}
+.repair p.types {
+  font-size: 22px;
+  color: black;
+  padding-top: 0;
+}
+
+.three-rooms {
+  max-width: 1236px;
+  height: 608px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=index.css.map */
