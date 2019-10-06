@@ -11,11 +11,6 @@ ul {
   list-style: none;
 }
 
-h1 {
-  opacity: 0;
-  font-size: 0;
-}
-
 .header {
   position: relative;
   max-width: 1440px;
@@ -25,12 +20,10 @@ h1 {
   background: black url("assets/group7.png") no-repeat;
   background-position: right bottom;
 }
-
 .header nav {
   height: 83px;
   background-color: black;
 }
-
 .header nav .nav-ul {
   display: flex;
   justify-content: space-around;
@@ -38,7 +31,6 @@ h1 {
   height: 100%;
   margin: auto;
 }
-
 .header .instagram {
   background-color: black;
   color: #e3b873;
@@ -50,13 +42,11 @@ h1 {
   top: 40%;
   font-size: 12px;
 }
-
 .header .text-buttons-block {
   width: 45%;
   height: 40%;
   margin: 15%;
 }
-
 .header .text-buttons-block p:first-child {
   font-family: Yeseva One;
   font-style: normal;
@@ -66,11 +56,9 @@ h1 {
   text-transform: uppercase;
   color: white;
 }
-
 .header .text-buttons-block p:first-child span {
   color: #e3b873;
 }
-
 .header .text-buttons-block p:nth-child(2) {
   font-family: FuturaBookC;
   font-size: 18px;
@@ -103,16 +91,13 @@ h1 {
   color: white;
   align-self: center;
 }
-
 .items:first-child, .items:nth-child(2) {
   color: #e3b873;
 }
-
 .items:nth-last-of-type(2) {
   color: #e3b873;
   text-decoration: underline;
 }
-
 .items:last-child {
   background-color: #e3b873;
   color: white;
@@ -123,117 +108,15 @@ h1 {
   max-width: 1440px;
   margin: 0 auto;
 }
-
 .main .online-control {
   height: 1074px;
-  background: black url("assets/group1.jpg");
+  background: black url("assets/gropp1.jpg");
 }
-
 .main .cities {
-  width: 40%;
+  width: 50%;
+  margin: 10% 45%;
   display: flex;
   justify-content: space-between;
-  padding-top: 60px;
-  margin-left: 42%;
 }
 
-.main .city {
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.3);
-  font-size: 12px;
-  line-height: 200%;
-}
-
-.main .city:first-child {
-  text-decoration: underline;
-  color: #E3B873;
-}
-
-.projects-wrapper {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 5%;
-}
-
-.projects {
-  width: 27%;
-  margin-right: 20px;
-}
-
-.projects p:first-child {
-  font-family: Yeseva One;
-  font-size: 27px;
-  line-height: 37px;
-  letter-spacing: -0.07em;
-  text-transform: uppercase;
-  color: #E3B873;
-  margin: 20px 0;
-}
-
-.projects p:nth-child(2) {
-  font-family: FuturaBookC;
-  font-size: 16px;
-  line-height: 29px;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-}
-
-.city-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.city-container .parts {
-  width: 49%;
-  flex-grow: 1;
-}
-
-.city-container .parts .heads {
-  font-family: Yeseva One;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  color: #E3B873;
-}
-
-.city-container .parts .text {
-  font-family: FuturaBookC;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFFFFF;
-}
-
-.carousel img:first-child {
-  margin: 0 20px;
-}
-
-.camera {
-  margin: 5% auto;
-}
-
-.camera p {
-  font-family: Yeseva One;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.camera img {
-  margin: 10px auto;
-  display: block;
-}
-
-.video {
-  margin: 30px auto;
-}
-
-.video img {
-  margin: 10px auto;
-  display: block;
-}
+/*# sourceMappingURL=index,css.map */

@@ -6,7 +6,9 @@ body
 
 ul 
     list-style: none
-
+h1
+    opacity: 0
+    font-size: 0
 .header 
     position: relative
     max-width: 1440px
@@ -87,6 +89,90 @@ ul
         color: white
         padding: 10px 15px
         
+.main
+    max-width: 1440px
+    margin: 0 auto
+    .online-control
+        height: 1074px
+        background: black url('assets/group1.jpg')
+    .cities
+        width: 40%
+        display: flex
+        justify-content: space-between
+        padding-top: 60px
+        margin-left: 42%
+    .city
+        text-transform: uppercase
+        color: rgba(255, 255, 255, 0.3)
+        font-size: 12px
+        line-height: 200%
+        &:first-child
+            text-decoration: underline
+            color: #E3B873
 
+.projects-wrapper
+    display: flex
+    justify-content: flex-end
+    margin-top: 5%
 
+.projects
+    width: 27%
+    margin-right: 20px
+    & p:first-child
+        font-family: Yeseva One
+        font-size: 27px
+        line-height: 37px
+        letter-spacing: -0.07em
+        text-transform: uppercase
+        color: #E3B873
+        margin: 20px 0
+    & p:nth-child(2)
+        font-family: FuturaBookC
+        font-size: 16px
+        line-height: 29px
+        color: #FFFFFF
+        margin-bottom: 20px
 
+.city-container
+    display: flex
+    flex-wrap: wrap  
+    & .parts
+        width: 49%
+        flex-grow: 1
+        & .heads
+            font-family: Yeseva One
+            font-style: normal
+            font-weight: normal
+            font-size: 18px
+            line-height: 25px
+            text-transform: uppercase
+            color: #E3B873                
+        & .text
+            font-family: FuturaBookC
+            font-size: 14px
+            line-height: 20px
+            color: #FFFFFF    
+
+.carousel img:first-child
+    margin: 0 20px  
+
+.camera 
+    margin: 5% auto
+    & p
+        font-family: Yeseva One
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 28px
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+    & img 
+        margin: 10px auto
+        display: block  
+
+.video
+    margin: 30px auto  
+    & img 
+       margin: 10px auto
+       display: block          
