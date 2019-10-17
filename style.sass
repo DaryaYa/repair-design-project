@@ -252,3 +252,16 @@ h1
     display: flex     
     margin: 0 auto
     justify-content: space-between 
+
+@media screen and ( max-width: 375px  )
+    header
+        max-width: 375px
+        height: 496px
+        background: black url("assets/mobOne.jpg")no-repeat
+        background-position: center bottom
+        nav 
+            height: 20px
+            .nav-ul
+                display: none
+            .nav-ul:not(:nth-child(8)):not(:first-child) 
+                display: inline-block  

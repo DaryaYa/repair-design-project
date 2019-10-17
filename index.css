@@ -308,4 +308,22 @@ h1 {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 375px) {
+  header {
+    max-width: 375px;
+    height: 496px;
+    background: black url("assets/mobOne.jpg") no-repeat;
+    background-position: center bottom;
+  }
+  header nav {
+    height: 20px;
+  }
+  header nav .nav-ul {
+    display: none;
+  }
+  header nav .nav-ul:not(:nth-child(8)):not(:first-child) {
+    display: inline-block;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
